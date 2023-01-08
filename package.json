@@ -1,0 +1,19 @@
+{
+  "name": "everest",
+  "version": "1.0.0",
+  "description": "Typescript + NodeJS Setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akishizu/everest.git"
+  },
+  "author": "Aki Shizu <https://github.com/akishizu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akishizu/everest/issues"
+  },
+  "homepage": "https://github.com/akishizu/everest#readme"
+}
