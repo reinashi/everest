@@ -4,7 +4,9 @@
   "description": "Typescript + NodeJS Setup.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "env-cmd ts-node-dev --respawn src/index.ts",
+    "build": "rimraf dist && tsc",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/akishizu/everest/issues"
   },
-  "homepage": "https://github.com/akishizu/everest#readme"
+  "homepage": "https://github.com/akishizu/everest#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^26.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
 }
