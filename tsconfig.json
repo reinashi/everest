@@ -15,5 +15,6 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-  }
+  },
+  "exclude": ["dist", "node_modules"]
 }
