@@ -1,3 +1,4 @@
 # Everest
 
-TypeScript + NodeJS Setup.
+TypeScript + NodeJS Setup
+
